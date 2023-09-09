@@ -1,0 +1,86 @@
+h1 {
+    font-family: "Merriweather", serif; 
+    font-weight: bolder; 
+    color:#009973;
+}
+
+body,.w3-bar,button {
+    font-family: "Merriweather", serif;
+}
+
+.start-button{
+    background-color: #dbbd42;
+} 
+
+h2,h3,h4,h5,h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+}
+
+.fa-anchor,.fa-coffee {
+    font-size:200px
+}
+
+header {
+    margin-left: 0px;
+    margin-right: 0px;
+    position: relative;
+    padding: 205px;
+}
+
+.icon {
+    float:left;
+    margin-top: 9px;
+    margin-left: 9px;
+}
+
+.picture1 {
+    height: 420px;
+    width: 320px;
+    float: right;
+    margin-left: 30px;
+}
+
+.picture2 {
+    height: 400px;
+    width: 320px;
+    float: left;
+}
+
+.about{
+    margin: 100px;  
+}
+
+.h2-about,.h2-contact{
+    color: teal;
+    font-size: 50px;
+    font-weight:bolder;
+    text-align: center;
+}
+
+.para1{
+    text-align: center;
+    font-size: 18px;
+    margin-left: 41px;
+    margin-right: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.para2{
+    text-align: center;
+    font-size: 18px;
+    margin-left: 40px;
+    margin-right: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.contact{
+    margin: 150px;
+}
+.contact-mail{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 21px;
+
+}

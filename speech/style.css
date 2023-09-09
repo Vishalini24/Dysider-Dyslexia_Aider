@@ -1,0 +1,21 @@
+h1 {
+    margin-left: 200px;
+}
+
+.intro-container {
+    position:relative;
+    top: 80px;
+}
+
+.static{
+	background-color: #E3E3E3;
+	border: 1px solid grey;
+	border-radius: 3px;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.speech {
+    position: relative;
+    top: 100px;
+}

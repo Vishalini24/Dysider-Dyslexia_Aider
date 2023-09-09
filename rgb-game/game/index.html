@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Colour Game</title>
+    <link rel="stylesheet" href="colorGame.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../dashboard/css/style.css">
+    <link rel="icon" href="../../dashboard/img/favicon.ico">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
+
+
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-103017455-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+  </head>
+  <body class="w3-pale-green">
+    <!-- Navbar -->
+  <div class="w3-top">
+    <div class="w3-bar w3-right-align w3-teal w3-card w3-large">
+      <a href="../dashboard/home.html" class="icon"><img src="../../dashboard/img/icon.png"/></a>
+      
+      <a href="../../contact/contact.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-amber" style="float:right">Contact</a>
+      <a href="../../about/about.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-amber" style="float:right">About</a>
+      <div class="w3-dropdown-hover" style="float:right">
+        <button class=" w3-button w3-hide-small w3-padding-large w3-hover-amber">Explore</button>
+        <div class="w3-dropdown-content w3-bar-block">
+          <a href="../../phonic-find/first.html" class="w3-bar-item w3-button w3-hover-amber">Phonics</a>
+          <a href="../../vowel-hangman/index.html" class="w3-bar-item w3-button w3-hover-amber">Vowels</a>
+          <a href="../../anagram-game/index.html" class="w3-bar-item w3-button w3-hover-amber">Word Formation</a>
+          <a href="../../speech/speech.html" class="w3-bar-item w3-button w3-hover-amber">Speech</a>
+          <a href="../../color-cube/first.html" class="w3-bar-item w3-button w3-hover-amber">Colours</a>
+        </div>
+      </div>
+      <a href="../../dashboard/dashboard.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-amber" style="float:right">Dashboard</a>
+      <a href="../../dashboard/home.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-amber" style="float:right">Home</a>
+    </div>
+  </div>
+  <div class="container">
+  <h1>The <span id="colorDisplay">RGB </span>Game</h1>
+
+    <div id="stripe" class="w3-pale-green">
+      <button id="reset">New Colors</button>
+      <span id="message"></span>
+      <button class="mode">Easy</button>
+      <button class="mode selected">Hard</button>
+    </div>
+
+    <div id="container">
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+    </div>
+  </div>
+    <script type="text/javascript" src="colorGame.js"></script>
+  </body>
+</html>

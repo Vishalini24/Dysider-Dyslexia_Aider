@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Colour Cube</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../dashboard/css/style.css">
+<link rel="stylesheet" href="css/cube-style.css">
+<link rel="icon" href="../dashboard/img/favicon.ico">
+<body class="w3-pale-green">
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-right-align w3-teal w3-card w3-large">
+    <a href="../dashboard/home.html" class="icon"><img src="../dashboard/img/icon.png"/></a>
+    
+    <a href="../contact/contact.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-amber" style="float:right">Contact</a>
+    <a href="../about/about.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-amber" style="float:right">About</a>
+    <div class="w3-dropdown-hover" style="float:right">
+      <button class=" w3-button w3-hide-small w3-padding-large w3-hover-amber">Explore</button>
+      <div class="w3-dropdown-content w3-bar-block">
+        <a href="../phonic-find/first.html" class="w3-bar-item w3-button w3-hover-amber">Phonics</a>
+        <a href="../vowel-hangman/index.html" class="w3-bar-item w3-button w3-hover-amber">Vowels</a>
+        <a href="../anagram-game/index.html" class="w3-bar-item w3-button w3-hover-amber">Word Formation</a>
+        <a href="../speech/speech.html" class="w3-bar-item w3-button w3-hover-amber">Speech</a>
+        <a href="../color-cube/first.html" class="w3-bar-item w3-button w3-hover-amber">Colours</a>
+      </div>
+    </div>
+    <a href="../dashboard/dashboard.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-amber" style="float:right">Dashboard</a>
+    <a href="../dashboard/home.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-amber" style="float:right">Home</a>
+  </div>
+</div>
+
+<header class="w3-center">
+    <h1 class="w3-margin">Colour Cube</h1>
+  </header>
+
+<div class="center">
+    <p>Click on the square following this color sequence</p>
+    <input id="side1" type="checkbox" />
+    <input id="side2" type="checkbox" />
+    <input id="side3" type="checkbox" />
+    <input id="side4" type="checkbox" />
+    <input id="side5" type="checkbox" />
+    <input id="side6" type="checkbox" />
+    <div class="resultado"></div>
+</div>
+  <div class="container">
+    <div class="cube">
+      <label for="side1" class="side side1">CYAN</label>
+      <label for="side2" class="side side2">ORANGE</label>
+      <label for="side3" class="side side3">NAVY BLUE</label>
+      <label for="side4" class="side side4">POWDER BLUE</label>
+      <label for="side5" class="side side5">YELLOW</label>
+      <label for="side6" class="side side6">RED</label>
+    </div>
+  </div>
+  <a href="cube.html"><button class="w3-button w3-amber w3-padding-large w3-large" style="margin-top: 70px;">Try Again</button></a>
+</body>
+</html>

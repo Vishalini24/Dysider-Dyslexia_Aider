@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Colours</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../dashboard/css/style.css">
+    <link rel="icon" href="../dashboard/img/favicon.ico">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<!-- Navbar -->
+<div class="w3-top">
+    <div class="w3-bar w3-right-align w3-teal w3-card w3-large">
+      <a href="../dashboard/home.html" class="icon"><img src="../dashboard/img/icon.png"/></a>
+      
+      <a href="../contact/contact.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-amber" style="float:right">Contact</a>
+      <a href="../about/about.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-amber" style="float:right">About</a>
+      <div class="w3-dropdown-hover" style="float:right">
+        <button class=" w3-button w3-hide-small w3-padding-large w3-hover-amber">Explore</button>
+        <div class="w3-dropdown-content w3-bar-block">
+          <a href="../phonic-find/first.html" class="w3-bar-item w3-button w3-hover-amber">Phonics</a>
+          <a href="../vowel-hangman/index.html" class="w3-bar-item w3-button w3-hover-amber">Vowels</a>
+          <a href="../anagram-game/index.html" class="w3-bar-item w3-button w3-hover-amber">Word Formation</a>
+          <a href="../speech/speech.html" class="w3-bar-item w3-button w3-hover-amber">Speech</a>
+          <a href="../color-cube/first.html" class="w3-bar-item w3-button w3-hover-amber">Colours</a>
+        </div>
+      </div>
+      <a href="../dashboard/dashboard.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-amber" style="float:right">Dashboard</a>
+      <a href="../dashboard/home.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-amber" style="float:right">Home</a>
+    </div>
+  </div>
+    <div class="intro-container">
+        <div class="static col-md-8 col-md-offset-2">
+            <div class="modal-body">
+                <p>The RGB color model is an additive color model in which red, green, and blue light are added together in various ways to reproduce a broad array of colors.
+                    Tap on the sliders to explore them. Once ready, try playing this RGB game!</p>
+                <center><a href="game/index.html"><button class="w3-button w3-amber w3-padding-large w3-large w3-margin-top">Play Game</button></a></center>				
+            </div>
+        </div>
+    </div>
+	<div class="main">
+		Result:<input type="text" id="box"
+			style="color:black" value="rgb(255,255,255)">
+
+		<!-- Range slider for red colour -->
+		Red:<input type="range" id="red"
+			value="255" min="0" max="255">
+
+		<!-- Range slider for green colour -->
+		Green:<input type="range" id="green"
+			value="255" min="0" max="255">
+
+		<!-- Range slider for blue colour -->
+		Blue:<input type="range" id="blue"
+			value="255" min="0" max="255">
+	</div>
+	<script src="script.js"></script>
+</body>
+
+</html>
