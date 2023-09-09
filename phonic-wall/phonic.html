@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Phonic wall
+    </title>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Phonic Wall</title>
+    <link rel="stylesheet" href="../dashboard/css/style.css"/>
+    <link rel="stylesheet" href="ph.css" />
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
+	<link rel="icon" href="../dashboard/img/favicon.ico">
+</head>
+<body class="w3-pale-green">
+
+        <!-- Navbar -->
+        <div class="w3-top">
+            <div class="w3-bar w3-right-align w3-teal w3-card w3-large">
+              <a href="../dashboard/home.html" class="icon"><img src="../dashboard/img/icon.png"/></a>
+              
+          <a href="../contact/contact.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-amber" style="float:right">Contact</a>
+          <a href="../about/about.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-amber" style="float:right">About</a>
+          <div class="w3-dropdown-hover" style="float:right">
+            <button class=" w3-button w3-hide-small w3-padding-large w3-hover-amber">Explore</button>
+            <div class="w3-dropdown-content w3-bar-block">
+                <a href="../phonic-find/first.html" class="w3-bar-item w3-button w3-hover-amber">Phonics</a>
+                <a href="../vowel-hangman/index.html" class="w3-bar-item w3-button w3-hover-amber">Vowels</a>
+                <a href="../anagram-game/index.html" class="w3-bar-item w3-button w3-hover-amber">Word Formation</a>
+                <a href="../speech/speech.html" class="w3-bar-item w3-button w3-hover-amber">Speech</a>
+                <a href="../color-cube/first.html" class="w3-bar-item w3-button w3-hover-amber">Colours</a>
+            </div>
+          </div>
+          <a href="../dashboard/dashboard.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-amber" style="float:right">Dashboard</a>
+          <a href="../dashboard/home.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-amber" style="float:right">Home</a>  
+        </div>
+    </div>
+    <section data-role="content"> 
+        <div class="intro-container">
+            <div class="static col-md-8 col-md-offset-2">
+                <div class="modal-body">
+                    <p>With practice, Phonics are very easy to master. With the help of a Phonic wall, it's all the more fun to learn them. </p>
+                    <p>Tap on the cards, to listen and learn the phonic sounds</p>						
+                </div>
+            </div>
+        </div>
+        <div class="container">
+        <h1 style="font-family: Merriweather, serif; font-weight: bolder; color:#009973;">Alphabets</h1>
+        <button  class="wall" onclick="playSound('ai-1_long')">a</button>
+        <button  class="wall"  style="color:#e35050;" onclick="playSound('b_')">b</button>
+        <button  class="wall"  style="color:#009953;" onclick="playSound('c_2_soft')">c</button> 
+        <button  class="wall"  style="color:#e6b800;" onclick="playSound('extra-letter-D')">d</button>
+        <button  class="wall" onclick="playSound('e_1_long')">e</button>
+        <button  class="wall"  style="color:#e35050;" onclick="playSound('f_')">f</button>
+        <button  class="wall"  style="color:#009953;" onclick="playSound('g_2_hard')">g</button>
+        <button  class="wall"  style="color:#e6b800;" onclick="playSound('h_')">h</button>
+        <button  class="wall" onclick="playSound('i_1_long')" >i</button>
+        <button  class="wall"  style="color:#e35050;" onclick="playSound('j_')">j</button>
+        <button  class="wall"  style="color:#009953;" onclick="playSound('k_')">k</button>
+        <button  class="wall"  style="color:#e6b800;" onclick="playSound('l_1_unvoiced')">l</button>
+        <button  class="wall" onclick="playSound('m_')">m</button>
+        <button  class="wall"  style="color:#e35050;" onclick="playSound('n_')">n</button>
+        <button  class="wall"  style="color:#009953;" onclick="playSound('o_1_long')">o</button>
+        <button  class="wall"  style="color:#e6b800;" onclick="playSound('p_')">p</button>
+        <button  class="wall" onclick="playSound('')">q</button>
+        <button  class="wall"  style="color:#e35050;" onclick="playSound('extra-letter-R')">r</button>
+        <button  class="wall"  style="color:#009953;" onclick="playSound('s_1_s')">s</button>
+        <button  class="wall"  style="color:#e6b800;" onclick="playSound('t_')">t</button>
+        <button  class="wall" onclick="playSound('u_2_long')" >u</button>
+        <button  class="wall"  style="color:#e35050;" onclick="playSound('v_')">v</button>
+        <button  class="wall"  style="color:#009953;" onclick="playSound('w_')">w</button>
+        <button  class="wall"  style="color:#e6b800;"onclick="playSound('extra-letter-X')">x</button>
+        <button  class="wall" onclick="playSound('y_1_consonant')">y</button>
+        <button  class="wall"  style="color:#e35050;" onclick="playSound('z_')">z</button>	
+        <br/><br/><br/>
+        <h1 style="font-family: Merriweather, serif; font-weight: bolder; color:#009973;">Common Phonic Sounds</h1>
+        <br/>
+        <button  class="wall1"  onclick="playSound('ai-1_long')">ai</button>
+        <button  class="wall1"  style="color:#e35050;" onclick="playSound('ar-1_long')">ar</button>
+        <button  class="wall1"  style="color:#009953;" onclick="playSound('an-')">an</button>
+        <button  class="wall1"  style="color:#e6b800;" onclick="playSound('au-')">au</button>
+        <button  class="wall1"  onclick="playSound('aw-')">aw</button>
+        <button  class="wall1"  style="color:#e35050;" onclick="playSound('ay-')">ay</button>
+        <button  class="wall1"  style="color:#009953;" onclick="playSound('bl-')">bl</button>
+        <button  class="wall1"  style="color:#e6b800;" onclick="playSound('br-')">br</button>
+        <button  class="wall1" onclick="playSound('ch-')" >ch</button>
+        <button  class="wall1"  style="color:#e35050;" onclick="playSound('ck-')">ck</button>
+        <button  class="wall1"  style="color:#009953;" onclick="playSound('cl-')">cl</button>
+        <button  class="wall1"  style="color:#e6b800;" onclick="playSound('cr-')">cr</button>
+        <button  class="wall1" onclick="playSound('dr-')">dr</button>
+        <button  class="wall1"  style="color:#009953;" onclick="playSound('ea-1_long')">ea</button> 
+        <button  class="wall1"  style="color:#009953;"onclick="playSound('ee-')">ee</button>
+        <button  class="wall1"  style="color:#e6b800;" onclick="playSound('ei-')">ei</button>
+        <button  class="wall1" onclick="playSound('er-')">er</button>
+        <button  class="wall1"  style="color:#e35050;" onclick="playSound('fl-')">fl</button>
+        <button  class="wall1"  style="color:#e6b800;" onclick="playSound('fr-')">fr</button>
+        <button  class="wall1" onclick="playSound('gl-')">gl</button>
+        <button  class="wall1"  style="color:#009953;" onclick="playSound('gr-')">gr</button>
+        <button  class="wall1"  style="color:#e35050;" onclick="playSound('igh-')">igh</button>
+        <button  class="wall1"  style="color:#009953;" onclick="playSound('ion-')">ion</button>
+        <button  class="wall1"  style="color:#e6b800;" onclick="playSound('nd-')">nd</button>
+        <button  class="wall1" onclick="playSound('oa-')" >oa</button>
+        <button  class="wall1"  style="color:#e35050;" onclick="playSound('ou-')">ou</button>
+        <button  class="wall1" onclick="playSound('sw_')">sw</button>
+        <button  class="wall1"  style="color:#e35050;" onclick="playSound('tr-')">tr</button>
+        <button  class="wall1"  style="color:#009953;" onclick="playSound('ur-')">ur</button>
+
+    </section>
+</div>
+    <script src="phonic.js"></script>
+</body>
+</html>
